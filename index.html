@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/5468db3c8c.js" crossorigin="anonymous"></script>
+	<link rel="icon" href="favicon.gif" type="image/gif" />
+  <title></title>
+</head>
+<style>
+  {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.banner {
+    border: 1px rgb(17, 238, 179) groove;
+    margin: 40px 40px 20px 60px;
+    text-align: center;
+    background-color:rgb(17, 168, 238);
+    width: 97%;
+    margin: 0px auto;
+}
+.name_banner{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.729);
+    font-weight: bold;
+    width: 98%;
+    
+}
+.h1 {
+    color: white;
+    background-color: rgb(205, 197, 50);
+    border-radius: 7%;
+    border: 1px dashed rgba(16, 15, 16, 0.278);
+    width: 750px;
+    height: 50px;
+    text-align: center;
+    margin: 20px 15px 20px 15px;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 20px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+}
+.root>li {
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root>li a{
+    text-decoration: none;
+    color: rgb(15, 231, 45);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+.menu_web {
+    width: 97%;
+    height: 50px;
+    background-color: cyan;
+    margin: 0 auto;
+}
+.menu {
+    font-size: 20px;
+}
+.root>li>a:hover{background-color: yellowgreen;
+    color: white;
+    transform: ease-in 0.35s;
+}
+.submenu{
+    width: 250px;
+    background-color: #0babd3;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+.submenu li {list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: snow;
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    text-indent: 12px;
+}
+.root>li:hover .submenu {
+    display: block;
+    background-color: #0babd3;
+    color: palevioletred;
+    transform: ease-in 0.35s;
+}
+.submenu li a:hover {
+    background-color: yellowgreen;
+    color: white;
+    transform: ease-in 0.35s;
+}
+ p{
+    text-align: center;
+ }
+ body {
+  background-color: #129062;
+  padding: 45px 0;
+  color: white;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+}
+
+h3 {
+  font-family: "Lobster", cursive;
+  margin: 10px 0 8px 0;
+}
+
+p {
+  font-family: system-ui;
+  width: 450px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    width: 100%;
+  }
+}
+
+.button {
+  margin-bottom: 20px;
+  background-color: white;
+  border: 0;
+  width: 300px;
+  padding: 15px 0 15px 0;
+  border-radius: 100px;
+  font-family: "Roboto Condensed", cursive;
+  font-size: 15px;
+  transition-duration: 0.3s;
+  transition-property: color, background-color;
+  -webkit-box-shadow: 0px 11px 22px -9px #000000;
+  box-shadow: 0px 11px 22px -9px #000000;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
+h1{
+    color: red  ;
+}
+h2{
+    color :orange;  
+}
+.lkj{
+    padding: 50px 60px;
+}
+
+</style>
+<body>
+    <div class="banner">
+      <marquee behavior="alternate" direction="left"><p class="name_banner">GIỚI THIỆU BẢN THÂN VÀ QUÊ HƯƠNG</p></marquee>
+    </div>
+    <div class="menu_web">
+      <div class="menu">
+        <ul class="root">
+          <li><a href="" class="href">Trang chủ</a></li>
+          <li><a href="" class="href">Thạch Thất</a>
+            <ul class="submenu">
+              <li><a href="" class="href">Khái quát địa lí</a></li>
+              <li><a href="" class="href">Kinh Tế</a></li>
+            </ul>
+            <li><a href="" class="href">Di tích lịch sử</a>
+              <ul class="submenu">
+                <li><a href="" class="href">Chùa Tây Phương</a></li>
+                <li><a href="" class="href">Chùa Thầy</a></li>
+              </ul>
+            <li><a href="" class="href">Ẩm thực</a>
+              <ul class="submenu">
+                <li><a href="" class="href">Chè Lam</a></li>
+                <li><a href="" class="href">Bánh Tẻ</a></li>
+              </ul>
+          </li>  
+      </div>
+      <div class="anh">
+        <p>.</p>
+        
+        <img src="nam14.jpg" alt="" width="200px" height="200px"><br>
+        <p> Nguyễn Hoài Nam</p>
+        <p> Sinh Ngày 26/05/2003</p>
+        <p> Quê Quán:Thạch Thất</p>
+    </div>
+        <left>
+		<button class="button" onclick="location.href = 'tel:0985017003'"><i class="fas fa-phone-alt"></i>&nbsp; Gọi điện cho mình</button><br>
+		<button class="button" onclick="location.href = 'https://myaccount.google.com/?utm_source=OGB&utm_medium=app'"><i class="fas fa-envelope"></i>&nbsp; Gửi email cho mình</button><br>
+		<button class="button" onclick="location.href = 'https://www.facebook.com/profile.php?id=100031205581606'"><i class="fab fa-facebook"></i>&nbsp; Facebook</button><br>
+		<button class="button" onclick="location.href = 'https://www.instagram.com/hoainam2655/'"><i class="fab fa-instagram"></i>&nbsp; Instagram</button><br>
+		<button class="button" onclick="location.href = 'https://www.youtube.com/channel/UCYGWkWyhnrFMKjDb7GfysRw'"><i class="fab fa-youtube"></i>&nbsp; YouTube</button><br>
+		<button class="button" onclick="location.href = 'https://github.com/Hoainam26'"><i class="fab fa-github"></i>&nbsp; GitHub</button>
+       
+    </left>
+    <div class="quehuong">
+        <H1 > Quê Hương</H1>
+        <h2> Huyện Thạch Thất, Thành phố Hà Nội<BR>
+            Thông tin tổng quan về Thạch Thất, Hà Nội</h2>
+    </div>
+    <h2>Hình ảnh về Thạch Thất</h2>
+    <img src="./thachthat6.jpg"><br>
+    <h2> Chùa Tây Phương</h2>
+    <img src="./thachthat4.jpg">
+    <p>Chùa Tây Phương xây 3 toà xếp thành hình chữ tam, nhìn bề ngoài mỗi toà có hai tầng, 8 mái và 8 đầu đao cong vút. Toà giữa hẹp nhưng cao hơn toà thượng và hạ. Do xếp hình chữ tam, không nối liền mà mỗi toà cách nhau một quảng nhất định, thềm toà nọ cách thềm toà kia là 1m60, nên nội thất mỗi toà đều được chiếu sáng. Các toà nhà gạch trần theo hình cong và được chạm trổ theo kiểu “bán âm, bán dương”, hay kiểu “sắc sắc không không” theo triết lý nhà Phật. Phía trong chùa dựng theo lớp chồng giừơng thống nhất, chồng cột có xà đỡ.</p><br>
+    <h2> Múa rối Làng Ra</h2>
+    <img src="./thachthat3.jpg"><br>
+    <div class="lkj">
+<p> Cho thuê Quảng Cáo</p>
+<p><a href="https://www.dainam.edu.vn/vi" target="_blank">Tuyển Sinh Đại Học</a></p>
+    </div>
+</body>
+    </body>
+    </html>
